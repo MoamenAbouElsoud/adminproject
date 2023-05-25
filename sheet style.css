@@ -1,0 +1,94 @@
+*{
+    background-image: url(internet.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inp {
+    text-align: center;
+    border: 5px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+    border-radius: 7px;
+    width: 100%;
+    position: relative;
+
+}
+
+label {
+    color: rgb(5, 62, 43);
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+}
+
+form button {
+    width: 20%;
+    margin: 10px 0 0 20px;
+    padding: 7px;
+    font-weight: bold;
+    background-color: rgb(2, 7, 28);
+    color: rgb(10, 3, 29);
+    font-size: 17px;
+    border: 2px solid rgb(2, 12, 29);
+    border-radius: 7px;
+    cursor: pointer;
+    text-align: center;
+}
+
+form button:hover {
+    background-color: rgb(36, 98, 118);
+    color: wheat;
+}
+
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+
+}
+
+.container .content {
+    text-align: center;
+}
+
+.container .content tr {
+    font-size: 30px;
+    color: #333;
+}
+table{
+    border: 1px solid;
+    padding: 5rem;
+    text-align: center;
+}
+table {
+    margin: auto;
+    border: indianred;
+    margin-bottom: 20px;
+}
+button {
+    color: indianred;
+    background-color: cornsilk;
+    margin: auto;
+    border: 3px solid crimson;
+    font-weight: bold;
+    font-size: 15 px ;
+
+
+}
+article table tr td {
+    text-align: center;
+    border: 3px solid   indianred;
+}
